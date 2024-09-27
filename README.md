@@ -64,6 +64,11 @@
         .content h3 {
             color: #2980b9;
         }
+        .gallery img {
+            width: 100%;
+            max-width: 600px; /* Adjust the maximum width as necessary */
+            margin-bottom: 20px;
+        }
         footer {
             background-color: #2c3e50;
             color: white;
@@ -86,6 +91,7 @@
     <nav>
         <a href="#about">关于我</a>
         <a href="#experience">工作经验</a>
+        <a href="#gallery">个人相册</a>
         <a href="#contact">联系我</a>
     </nav>
 </header>
@@ -109,6 +115,12 @@
         <li><strong>深圳市千岛旅行有限公司</strong> - 运营经理 (2016.01 - 2017.12)</li>
         <li><strong>印尼亨泰源钢铁公司</strong> - 总经理助理 (2012.06 - 2015.12)</li>
     </ul>
+</section>
+
+<section id="gallery" class="content">
+    <h3>个人相册</h3>
+    <!-- 添加个人图片 -->
+    <img src="profile_poster.jpg" alt="甘廉红宣传海报">
 </section>
 
 <section id="contact" class="content">
